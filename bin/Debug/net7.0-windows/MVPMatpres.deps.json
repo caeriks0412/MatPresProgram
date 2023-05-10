@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MVPMatpres/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.12",
+          "AWSSDK.S3": "3.7.103.42",
+          "Npgsql": "7.0.2"
+        },
+        "runtime": {
+          "MVPMatpres.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.106.12": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.106.12"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.103.42": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.103.42"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Npgsql/7.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.2.0",
+            "fileVersion": "7.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVPMatpres/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.106.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qD649MG2hmNOzvlzBq9AqBZsgUNCjvvNasCu4HZRGGDBrzZIm90OnWJhW0pDe3Vd3YmICjAH5acMjLgim8DnZQ==",
+      "path": "awssdk.core/3.7.106.12",
+      "hashPath": "awssdk.core.3.7.106.12.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.103.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E0U5RhUI3R09OGP42ScF9kuxXT/QnVANa/IBOQjir7d4lz64+pCcDFh3rCYiD9mkOOVDmA781Kfrebam3La9Bw==",
+      "path": "awssdk.s3/3.7.103.42",
+      "hashPath": "awssdk.s3.3.7.103.42.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Npgsql/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/k12hfmg4PI0IU2UTLN6n0s/FKUfox8+RdWtzgADYZoyks7GH82WLyXm27eeqatsi/nmiK9lO3HyULlTD87szg==",
+      "path": "npgsql/7.0.2",
+      "hashPath": "npgsql.7.0.2.nupkg.sha512"
+    }
+  }
+}

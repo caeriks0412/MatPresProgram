@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BeVJHQEtHatWJ9fwdMo5GlOAjoC8Lfa8CuaIqrdn+DL6fIr73CnvWk7wSTnXNgrkDc/ptrR6C15seZ01Z3Nnag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carle\\OneDrive\\Desktop\\Chalmers Skoldokument\\IMSX18\\Programmering\\MVPMatpres\\MVPMatpres\\MVPMatpres.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carle\\.nuget\\packages\\awssdk.core\\3.7.106.12\\awssdk.core.3.7.106.12.nupkg.sha512",
+    "C:\\Users\\carle\\.nuget\\packages\\awssdk.s3\\3.7.103.42\\awssdk.s3.3.7.103.42.nupkg.sha512",
+    "C:\\Users\\carle\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\carle\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
